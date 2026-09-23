@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Personal Website</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+        header {
+            background: #2c3e50;
+            color: #fff;
+            padding: 2rem 0;
+            text-align: center;
+        }
+        .container {
+            width: 80%;
+            margin: auto;
+            overflow: hidden;
+            padding: 2rem;
+        }
+        .projects {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 1rem;
+        }
+        .card {
+            background: #fff;
+            padding: 1rem;
+            border-radius: 5px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+        a {
+            color: #3498db;
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Hello, I'm a CS Student</h1>
+        <p>Welcome to my portfolio</p>
+    </header>
+
+    <div class="container">
+        <h2>About Me</h2>
+        <p>I am a Computer Science student passionate about building software and learning new technologies. Check out my projects below!</p>
+
+        <h2>My Projects</h2>
+        <div class="projects">
+            <div class="card">
+                <h3>Project 1</h3>
+                <p>A brief description of your first project.</p>
+                <a href="#">View on GitHub</a>
+            </div>
+            <div class="card">
+                <h3>Project 2</h3>
+                <p>A brief description of your second project.</p>
+                <a href="#">View on GitHub</a>
+            </div>
+        </div>
+
+        <h2>Contact</h2>
+        <p>Email: <a href="mailto:your.email@example.com">your.email@example.com</a></p>
+        <p>GitHub: <a href="https://github.com/YOUR_USERNAME">github.com/YOUR_USERNAME</a></p>
+    </div>
+</body>
+</html>
